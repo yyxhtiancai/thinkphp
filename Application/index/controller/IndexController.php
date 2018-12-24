@@ -9,7 +9,8 @@ class Index
 	
 	public function index()
     {
-        $arr = array();
+        //
+		$arr = array();
 		$a = Db::name('teacher');
 		while($r = $a->find()){
 			echo '<pre>';

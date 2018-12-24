@@ -9,7 +9,7 @@ class Index
 	
 	public function index()
     {
-        //
+        //测试
 		$arr = array();
 		$a = Db::name('teacher');
 		while($r = $a->find()){
